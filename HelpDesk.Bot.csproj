@@ -147,6 +147,8 @@
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Assets\luis_model.json" />
+    <Content Include="Assets\HelpDeskBot-Conagra.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

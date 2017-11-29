@@ -37,6 +37,13 @@
             context.Done<object>(null);
         }
 
+        [LuisIntent("AnswerIntuneQuestions")]
+        public async Task AnswerIntuneQuestions(IDialogContext context, LuisResult result)
+        {
+            var question = result.Query;
+
+        }
+
         [LuisIntent("SubmitTicket")]
         public async Task SubmitTicket(IDialogContext context, LuisResult result)
         {
