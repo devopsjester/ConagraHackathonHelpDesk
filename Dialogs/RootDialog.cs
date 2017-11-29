@@ -47,11 +47,12 @@
 
         private async Task AfterIntuneDialog(IDialogContext context, IAwaitable<object> result)
         {
-            var messageHandled = result.GetAwaiter().IsCompleted;
-            if (!messageHandled)
-            {
-                await context.PostAsync("Sorry, but I couldn't find any information on this.");
-            }
+            //await result;
+            //var messageHandled = result.GetAwaiter().IsCompleted;
+            //if (!messageHandled)
+            //{
+            //    await context.PostAsync("Sorry, but I couldn't find any information on this.");
+            //}
             context.Wait(MessageReceived);
         }
 
