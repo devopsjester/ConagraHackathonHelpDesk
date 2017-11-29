@@ -51,3 +51,4 @@ C:\Users\assaf\Source\Repos\Conagra\HelpDesk\bin\Microsoft.Rest.ClientRuntime.xm
 C:\Users\assaf\Source\Repos\Conagra\HelpDesk\bin\it\Microsoft.Bot.Builder.resources.dll
 C:\Users\assaf\Source\Repos\Conagra\HelpDesk\bin\nl\Microsoft.Bot.Builder.resources.dll
 C:\Users\assaf\Source\Repos\Conagra\HelpDesk\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
+C:\Users\assaf\Source\Repos\Conagra\HelpDesk\obj\Debug\HelpDesk.Bot.csprojResolveAssemblyReference.cache
