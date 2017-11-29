@@ -40,8 +40,14 @@
         [LuisIntent("AnswerIntuneQuestions")]
         public async Task AnswerIntuneQuestions(IDialogContext context, LuisResult result)
         {
-            var question = result.Query;
+            var message = context.MakeMessage();
+            message.Text = result.Query;
+            context.Forward(new BasicQnAMakerDialog(), ResumeAndEndDialogAsync, message, System.Threading.CancellationToken.None);
+        }
 
+        private async Task ResumeAndEndDialogAsync(IDialogContext context, IAwaitable<object> argument)
+        {
+            context.Done<object>(null);
         }
 
         [LuisIntent("SubmitTicket")]

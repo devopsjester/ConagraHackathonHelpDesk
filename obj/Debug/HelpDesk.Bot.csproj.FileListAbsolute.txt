@@ -52,3 +52,14 @@ C:\Users\assaf\Source\Repos\Conagra\HelpDesk\bin\it\Microsoft.Bot.Builder.resour
 C:\Users\assaf\Source\Repos\Conagra\HelpDesk\bin\nl\Microsoft.Bot.Builder.resources.dll
 C:\Users\assaf\Source\Repos\Conagra\HelpDesk\bin\pt-BR\Microsoft.Bot.Builder.resources.dll
 C:\Users\assaf\Source\Repos\Conagra\HelpDesk\obj\Debug\HelpDesk.Bot.csprojResolveAssemblyReference.cache
+C:\Users\assaf\Source\Repos\Conagra\HelpDesk\bin\Microsoft.Bot.Builder.CognitiveServices.QnAMaker.dll
+C:\Users\assaf\Source\Repos\Conagra\HelpDesk\bin\Microsoft.Bot.Builder.CognitiveServices.QnAMaker.xml
+C:\Users\assaf\Source\Repos\Conagra\HelpDesk\bin\ar\Microsoft.Bot.Builder.CognitiveServices.QnAMaker.resources.dll
+C:\Users\assaf\Source\Repos\Conagra\HelpDesk\bin\cs\Microsoft.Bot.Builder.CognitiveServices.QnAMaker.resources.dll
+C:\Users\assaf\Source\Repos\Conagra\HelpDesk\bin\de-dE\Microsoft.Bot.Builder.CognitiveServices.QnAMaker.resources.dll
+C:\Users\assaf\Source\Repos\Conagra\HelpDesk\bin\en\Microsoft.Bot.Builder.CognitiveServices.QnAMaker.resources.dll
+C:\Users\assaf\Source\Repos\Conagra\HelpDesk\bin\es\Microsoft.Bot.Builder.CognitiveServices.QnAMaker.resources.dll
+C:\Users\assaf\Source\Repos\Conagra\HelpDesk\bin\fa\Microsoft.Bot.Builder.CognitiveServices.QnAMaker.resources.dll
+C:\Users\assaf\Source\Repos\Conagra\HelpDesk\bin\fr\Microsoft.Bot.Builder.CognitiveServices.QnAMaker.resources.dll
+C:\Users\assaf\Source\Repos\Conagra\HelpDesk\bin\ja\Microsoft.Bot.Builder.CognitiveServices.QnAMaker.resources.dll
+C:\Users\assaf\Source\Repos\Conagra\HelpDesk\bin\zh-hans\Microsoft.Bot.Builder.CognitiveServices.QnAMaker.resources.dll
