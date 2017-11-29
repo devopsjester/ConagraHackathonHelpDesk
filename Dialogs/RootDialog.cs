@@ -42,12 +42,17 @@
         {
             var message = context.MakeMessage();
             message.Text = result.Query;
-            context.Forward(new BasicQnAMakerDialog(), ResumeAndEndDialogAsync, message, System.Threading.CancellationToken.None);
+            await context.Forward(new BasicQnAMakerDialog(), AfterIntuneDialog, message, System.Threading.CancellationToken.None);
         }
 
-        private async Task ResumeAndEndDialogAsync(IDialogContext context, IAwaitable<object> argument)
+        private async Task AfterIntuneDialog(IDialogContext context, IAwaitable<object> result)
         {
-            context.Done<object>(null);
+            var messageHandled = result.GetAwaiter().IsCompleted;
+            if (!messageHandled)
+            {
+                await context.PostAsync("Sorry, but I couldn't find any information on this.");
+            }
+            context.Wait(MessageReceived);
         }
 
         [LuisIntent("SubmitTicket")]
